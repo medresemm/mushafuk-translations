@@ -2,40 +2,98 @@
   "source_repo": "https://github.com/nihomaho9-ui/mushafuk-online",
   "source_commit": "4ff10584719e3df530136b3c0e81f141910d1557",
   "intended_origin": "https://t.mushafuk.online",
-  "files": 16371,
-  "bytes": 91465780,
-  "mib": 87.2,
-  "works": [
-    "az/tercume",
-    "de/bubenheim",
-    "en/hilali",
-    "en/rowwad",
-    "en/translation",
-    "es/garcia",
-    "fa/roovad",
-    "fr/maach",
-    "ha/gumi",
-    "hi/omari",
-    "ja/sato",
-    "ku/bamoki",
-    "ky/hakimov",
-    "nl/rowwad",
-    "ps/roovad",
-    "pt/nasr",
-    "ru/perevod",
-    "so/yacob",
-    "ta/omar",
-    "tg/arifi",
-    "tr/meal",
-    "tr/rowwad",
-    "ug/saleh",
-    "ur/junagarhi",
-    "uz/mansour"
-  ],
-  "excluded": {
-    "tafsir/tercume": "Translated tafsir under tafsir category (~1245 MiB content); NOT in /translations/ hub — left on main pending separate decision",
-    "arabic_tafsir": "Not moved",
-    "locale_chrome": "Full locale sites (mushaf UI) not moved — only translation work trees"
+  "files": 265868,
+  "bytes": 1397628436,
+  "mib": 1332.9,
+  "quran_translations_mib": 87.2,
+  "tafsir_tercume_mib": 1245.6,
+  "combined_mib": 1332.9,
+  "fits_github_pages_1gb": false,
+  "migration_status": "STAGED_COPY — originals on mushafuk-online; no cutover; Pages not enabled",
+  "works_quran_tr": 25,
+  "works_tafsir_tercume": {
+    "ibnkathir": {
+      "files": 24951,
+      "mib": 255.3,
+      "langs": [
+        "az",
+        "bn",
+        "en",
+        "ru",
+        "tr",
+        "ur"
+      ]
+    },
+    "index.html": {
+      "files": 1,
+      "mib": 0.0,
+      "langs": []
+    },
+    "mukhtasar": {
+      "files": 187111,
+      "mib": 560.2,
+      "langs": [
+        "as",
+        "az",
+        "bn",
+        "bs",
+        "en",
+        "es",
+        "fa",
+        "ff",
+        "fr",
+        "hi",
+        "id",
+        "it",
+        "ja",
+        "km",
+        "ku",
+        "ky",
+        "ml",
+        "ps",
+        "ru",
+        "si",
+        "sr",
+        "ta",
+        "te",
+        "th",
+        "tl",
+        "tr",
+        "ug",
+        "uz",
+        "vi",
+        "zh"
+      ]
+    },
+    "muyassar": {
+      "files": 5,
+      "mib": 0.0,
+      "langs": [
+        "az",
+        "en",
+        "ru",
+        "tr"
+      ]
+    },
+    "saadi": {
+      "files": 37425,
+      "mib": 430.2,
+      "langs": [
+        "az",
+        "en",
+        "fa",
+        "id",
+        "ru",
+        "sq",
+        "tr",
+        "ur"
+      ]
+    }
   },
-  "migration_status": "STAGED_COPY — originals untouched on mushafuk-online; no cutover; Pages not enabled in this phase"
+  "validation": {
+    "tercume_blob_ok": 249493,
+    "tercume_missing": 0,
+    "tercume_mismatch": 0,
+    "quran_intact_sample": 4
+  }
 }
