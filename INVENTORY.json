@@ -1,0 +1,41 @@
+{
+  "source_repo": "https://github.com/nihomaho9-ui/mushafuk-online",
+  "source_commit": "4ff10584719e3df530136b3c0e81f141910d1557",
+  "intended_origin": "https://t.mushafuk.online",
+  "files": 16371,
+  "bytes": 91465780,
+  "mib": 87.2,
+  "works": [
+    "az/tercume",
+    "de/bubenheim",
+    "en/hilali",
+    "en/rowwad",
+    "en/translation",
+    "es/garcia",
+    "fa/roovad",
+    "fr/maach",
+    "ha/gumi",
+    "hi/omari",
+    "ja/sato",
+    "ku/bamoki",
+    "ky/hakimov",
+    "nl/rowwad",
+    "ps/roovad",
+    "pt/nasr",
+    "ru/perevod",
+    "so/yacob",
+    "ta/omar",
+    "tg/arifi",
+    "tr/meal",
+    "tr/rowwad",
+    "ug/saleh",
+    "ur/junagarhi",
+    "uz/mansour"
+  ],
+  "excluded": {
+    "tafsir/tercume": "Translated tafsir under tafsir category (~1245 MiB content); NOT in /translations/ hub — left on main pending separate decision",
+    "arabic_tafsir": "Not moved",
+    "locale_chrome": "Full locale sites (mushaf UI) not moved — only translation work trees"
+  },
+  "migration_status": "STAGED_COPY — originals untouched on mushafuk-online; no cutover; Pages not enabled in this phase"
+}
