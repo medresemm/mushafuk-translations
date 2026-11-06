@@ -1,99 +1,11 @@
 {
-  "source_repo": "https://github.com/nihomaho9-ui/mushafuk-online",
-  "source_commit": "4ff10584719e3df530136b3c0e81f141910d1557",
-  "intended_origin": "https://t.mushafuk.online",
-  "files": 265868,
-  "bytes": 1397628436,
-  "mib": 1332.9,
-  "quran_translations_mib": 87.2,
-  "tafsir_tercume_mib": 1245.6,
-  "combined_mib": 1332.9,
-  "fits_github_pages_1gb": false,
-  "migration_status": "STAGED_COPY — originals on mushafuk-online; no cutover; Pages not enabled",
-  "works_quran_tr": 25,
-  "works_tafsir_tercume": {
-    "ibnkathir": {
-      "files": 24951,
-      "mib": 255.3,
-      "langs": [
-        "az",
-        "bn",
-        "en",
-        "ru",
-        "tr",
-        "ur"
-      ]
-    },
-    "index.html": {
-      "files": 1,
-      "mib": 0.0,
-      "langs": []
-    },
-    "mukhtasar": {
-      "files": 187111,
-      "mib": 560.2,
-      "langs": [
-        "as",
-        "az",
-        "bn",
-        "bs",
-        "en",
-        "es",
-        "fa",
-        "ff",
-        "fr",
-        "hi",
-        "id",
-        "it",
-        "ja",
-        "km",
-        "ku",
-        "ky",
-        "ml",
-        "ps",
-        "ru",
-        "si",
-        "sr",
-        "ta",
-        "te",
-        "th",
-        "tl",
-        "tr",
-        "ug",
-        "uz",
-        "vi",
-        "zh"
-      ]
-    },
-    "muyassar": {
-      "files": 5,
-      "mib": 0.0,
-      "langs": [
-        "az",
-        "en",
-        "ru",
-        "tr"
-      ]
-    },
-    "saadi": {
-      "files": 37425,
-      "mib": 430.2,
-      "langs": [
-        "az",
-        "en",
-        "fa",
-        "id",
-        "ru",
-        "sq",
-        "tr",
-        "ur"
-      ]
-    }
-  },
-  "validation": {
-    "tercume_blob_ok": 249493,
-    "tercume_missing": 0,
-    "tercume_mismatch": 0,
-    "quran_intact_sample": 4
-  }
+  "host": "t.mushafuk.online",
+  "languages": "complement",
+  "t_mib": 836.3,
+  "t1_mib": 498.8,
+  "this_mib": 836.3,
+  "this_files": 214762,
+  "source_tag": "pre-split-all-langs",
+  "source_commit": "8172fad65dbf87a5f188b26640746bc1d6d33f48",
+  "main_backup_commit": "4ff10584719e3df530136b3c0e81f141910d1557"
 }

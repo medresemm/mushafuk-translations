@@ -70,26 +70,6 @@
     "mb": 1.1
   },
   {
-    "id": "urdu_junagarhi",
-    "k": "tr",
-    "name": "محمد جوناگڑھی",
-    "by": "اردو",
-    "lang": "ur",
-    "dir": "rtl",
-    "per": true,
-    "mb": 5.8
-  },
-  {
-    "id": "persian_ih",
-    "k": "tr",
-    "name": "مرکز ترجمه رواد",
-    "by": "فارسی",
-    "lang": "fa",
-    "dir": "rtl",
-    "per": true,
-    "mb": 1.6
-  },
-  {
     "id": "uzbek_mansour",
     "k": "tr",
     "name": "Алоуддин Мансур",
